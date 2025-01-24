@@ -17,10 +17,10 @@ function App() {
       </div> */}
       <Routes>
         {/* Route for the Dashboard page  */}
-        <Route path="/Task/" element={<Dashboard sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />} />
+        <Route path="/Quiz/" element={<Dashboard sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />} />
         
         {/* Route for the Result page */}
-        <Route path="/Task/result" element={<Result sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle}/>} />
+        <Route path="/Quiz/result" element={<Result sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle}/>} />
       </Routes>
     </div>
   
