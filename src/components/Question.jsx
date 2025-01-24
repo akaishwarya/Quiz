@@ -242,7 +242,7 @@ export const Question = () => {
     const handleSubmit = () => {
       // Submit functionality
       alert('Exam Submitted');
-      navigate('/Task/result');
+      navigate('/Quiz/result');
       
     };
   
